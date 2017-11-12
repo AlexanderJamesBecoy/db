@@ -1,0 +1,57 @@
+Thema 9 Subquery’s
+
+DB Thema 9 - SUBQUERYS HAN.pptx
+
+Onderwerpen
+
+·       SELECT statements: subquery’s in de WHERE, HAVING of FROM component
+Opmerking: Gecorreleerde subquery’s (§9.3) worden buiten beschouwing gelaten. Subquery’s in de SELECT clause worden ook buiten beschouwing gelaten (§9.1.2, §9.2.1)
+
+·       VIEWS; het gebruik van VIEWS in plaats van een subquery
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 9 en 14.
+
+·       Subselects algemeen: bestudeer §9 tm §9.1.1, §9.1.3 tm  §9.1.5.
+
+·       Subselects en joins: bestudeer §9.2.2 tm  §9.2.3
+
+·       Aanbevolen opgaven: 9.1, 9.4, 9.5
+
+·       Geneste subselects: bestudeer §9.4 tm §9.4.1
+
+·       Views; besturdeer §9.7
+
+·       Aanbevolen opgaven: 9.16 tm 9.21, 9.27
+
+·       Probleemaanpak: bestudeer §14.
+
+·       Aanbevolen opgaven: 14.2, 14.5, 14.6
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Thema-opdracht 9.1
+
+Bij deze opdracht maken we gebruik van de Muziekdatabase.
+
+Gegeven is de volgende informatiebehoefte: Geef stuknr en titel van alle jazzstukken waarbij een saxofoon wordt gebruikt.
+Los deze query op twee manieren op: een keer als join en een keer als query met subquery.
+Dezelfde vraag voor de volgende informatiebehoefte: Geef de namen van alle componisten waarvoor meer dan twee stukken zijn vastgelegd.
+Gegeven is de volgende informatiebehoefte: Geef alle klassieke stukken waarvoor geen bezetting is vastgelegd.
+Kun je deze query ook op twee manieren oplossen? Geef jouw oplossing(en).
+Kun je de informatiebehoefte van onderdeel C oplossen met een outer join? Zo ja, geef de oplossing. Zo nee, leg uit waarom.
+ 
+
+Casus opdrachten
+
+ 
+
+Als je de stof van deze en voorafgaande weken beheerst, dan heb je voldoende kennis om opdracht 3 af te ronden. Maak casusopdracht 3E, 3I t/m 3K.
+

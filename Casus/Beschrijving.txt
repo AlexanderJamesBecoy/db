@@ -1,0 +1,9 @@
+De casus die in deze course gebruikt wordt vind je hier Casus FletNix 20171107.pdf: 
+
+Het nakijkmodel volgt in onderwijsweek 6.
+
+Je kunt voor het testen van de queries uit de casus (maar ook voor het controleren van je conversiescript)
+ook gebruik maken van een reeds geconverteerde database genaamd FLETNIX_DOCENT. Ook deze database komt pas
+in week 6 online. Deze kun je in SQL Server 2016 restoren (zoals je ook met de IMDB database eerder gedaan
+hebt). Deze database kun je tevens gebruiken voor de course WebTech indien je nog geen goed gevulde
+database hebt.

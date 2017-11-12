@@ -1,0 +1,50 @@
+Thema 7 Join Query’s
+
+DB Thema 7 - JOIN QUERYS HAN.pptx
+
+Onderwerp
+
+·       SELECT-statements: joins.
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstuk 7.
+
+·       Join query’s; bestudeer hoofdstuk 7.
+
+·       Aanbevolen opgaven: 7.1, 7.2, 7.4 t/m 7.9, 7.11, 7.13, 7.14 en kies enkele opgaven uit §7.8.
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Thema-opdracht 7.1
+
+Bij deze opdracht maken we gebruik van de database Openschool (OpenSchool.rar).
+
+Openschool.png https://onderwijsonline.han.nl/manage/content/lessonfile/oNk01jXy/eyJpdiI6Ik1UYVZwQVUxZWdiOXlaeHJwZnVvZVE9PSIsInZhbHVlIjoiXC9vNldPYmwrUlBGSkVLMGw1bVI1cEhiamJ5YTBBZ3hTUWgrc3o2N3FpRlk9IiwibWFjIjoiNWFkMWMzYzNjYjg1OTRkZDA3MWMxN2E3YWMzNTFlMmQyNDA0MDlkNjY2NmU5MTRhMTdjYjYxMWZiNTliMjRlYiJ9
+
+Je moet zelf voorbeelden van bepaalde typen joins bedenken. Beschrijf in je antwoord steeds het volgende: 1) de informatiebehoefte, 2) de query, 3) het resultaat van de query.
+
+Beschouw de volgende informatiebehoefte en voorspel het resultaat:
+Geef voor elke inschrijving het nummer en de naam van de student, de cursuscode en cursusnaam en de behaalde cijfers.
+Geef twee SELECT-statements die een antwoord geven op deze vraag: een met de joinconditie in de WHERE-component en een met de INNER JOIN als onderdeel van de FROM-component.
+Wat gebeurt er als je een join maakt zonder joinconditie?
+Hier wordt een join van de volgende vorm bedoeld:
+SELECT        *
+FROM           Student, Inschrijving
+Geef een SELECT-statement voor de volgende informatiebehoefte:
+Geef voor elke student het studentnummer, de studentnaam, de coursecodes en coursenamen van zijn/haar inschrijvingen en de naam van de bijbehorende cursus examinator. Het resultaat moet ook studenten zonder inschrijving tonen.
+Geef een voorbeeld van een join waarbij drie of meer tabellen zijn betrokken.
+Geef een SELECT-statement voor de volgende informatiebehoefte:
+Geef de naam van elke docent tezamen met de naam van de docent die hem/haar kan vervangen.
+Hint: Hiervoor heb je een autojoin nodig.
+ 
+
+Casus opdrachten
+
+Je kunt nu verder gaan met de casusopdrachten 2C, 3A en 3D.

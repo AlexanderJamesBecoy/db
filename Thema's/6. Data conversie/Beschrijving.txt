@@ -1,0 +1,38 @@
+Thema 6 Data conversie
+
+DB Thema 6 - DATA CONVERSIE HAN.pptx
+
+Onderwerpen
+
+·       INSERT INTO…SELECT..
+
+·       DISTINCT /  LEFT() / CAST()
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 10 en 11.
+
+·       Meervoudige INSERTs: bestudeer §10.4.2
+
+·       DISTINCT: bestudeer §6.1.4
+
+·       String functies: bestudeer https://msdn.microsoft.com/nl-nl/library/ms181984.aspx
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Doe Digitale Workshop 4 Installeren van de IMDB database in SQL Server 2016 Developer.pdf
+
+ 
+
+Casus opdrachten
+
+ 
+
+Maak casusopdrachten 2 A en 2 B.
+

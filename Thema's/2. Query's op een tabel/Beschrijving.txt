@@ -1,0 +1,59 @@
+Thema 2 Query’s op een tabel
+
+DB Thema 2 - QUERYS OP EEN TABEL HAN.pptx
+
+Onderwerp
+
+SELECT statements: Query’s op één tabel met gebruikmaking van SELECT, FROM, WHERE en ORDER BY
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 3, 4 en 6
+
+·       SELECT-statements in vogelvlucht: bestudeer §3.4.1, §3.5, §3.6  en §3.7
+
+·       SELECT-, WHERE- en ORDER BY-component: bestudeer §6.1, §6.2, §6.5 §6.6.
+
+·       Aanbevolen opgaven: 6.5, 6.6, 6.7
+
+·       Logische algebra: bestudeer §4.3.
+
+·       Aanbevolen opgaven: 4.3, 4.4 en 4.5 (zie §4.3)
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Bij deze opdracht maak je gebruik van de Muziekdatabase.
+
+Vooraf: Doe eerst Digitale Workshop 3 Maken van de Muziekdatabase in SQL Server 2016 Developer.pdf.
+
+De onderstaande Thema opdrachten gaan met name over het gebruik van de logische operatoren OR en AND in de WHERE-component van een SELECT-statement.
+
+ 
+
+Thema-opdracht 2.1
+
+Gegeven is de volgende informatiebehoefte: Geef titel, genre en jaartal van alle pop- en jazzstukken voor beginners. Orden het resultaat op jaartal (met de meest recente bovenaan) en daarbinnen op titel.
+
+Geef de resultaattabel die, uitgaande van de op onderwijsonline gegeven populatie van de muziekdatabase, het antwoord is op deze informatiebehoefte.
+Stel een SELECT-statement op voor deze informatiebehoefte en voer dit uit. Komt het resultaat overeen met jouw verwachtingen.
+Breid het SELECT-statement uit zodat ook de naam van de componist wordt getoond.
+ 
+
+Thema-opdracht 2.2
+
+Gegeven is de volgende informatiebehoefte: Geef titel, niveaucode van alle originele klassieke stukken voor (ver)gevorderden. Orden het resultaat op titel.
+
+Geef de resultaattabel die, uitgaande van de op onderwijsonline gegeven populatie van de muziekdatabase, het antwoord is op deze informatiebehoefte.
+Stel een SELECT-statement op voor deze informatiebehoefte en voer dit uit. Komt het resultaat overeen met jouw verwachtingen.
+Breid het SELECT-statement uit zodat de niveauomschrijving wordt getoond i.p.v. de niveaucode.
+ 
+
+Casus opdrachten
+
+Maak casusopdrachten 1A en 1F verder af en maak 3B en 3C van de casus.

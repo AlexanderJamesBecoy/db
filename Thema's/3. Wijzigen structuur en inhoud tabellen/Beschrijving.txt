@@ -1,0 +1,46 @@
+Thema 3 Wijzigen structuur en inhoud tabellen
+
+DB Thema 3 - WIJZIGEN STRUCTUUR en INHOUD TABELLEN HAN.pptx
+
+Onderwerpen
+
+·       ALTER TABLE statements
+
+·       INSERT-, -UPDATE- en DELETE-statements
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 10 en 11.
+
+·       Levenswijzen van een database: lees §10.1.
+
+·       INSERT-, UPDATE- en DELETE-statements: bestudeer §10.4 t/m §10.6.2, muv §10.4.2 .
+
+·       Aanbevolen opgaven:  §10.8 t/m §10.10 (zie § 10.6).
+
+·       ALTER TABLE statements: bestudeer §11.5
+
+ 
+
+Thema-opdrachten
+
+Thema-opdracht 3.1
+
+De volgende vragen hebben betrekking op de openschool database.
+
+Gegeven het volgende model:
+
+Openschool.png
+
+Maak het model aan en voorzie het van de populatie zoals hierboven weergegeven (zie onderwijsonline )
+Geef het SQL statement dat de examinator verwijdert voor cursus DB.
+Men wil graag het aantal uren dat voor een cursus nodig is verhogen met 10 uur. Hoe luidt het SQL statement waarmee dat in één keer mogelijk wordt gemaakt.
+Beschrijf wat er moet gebeuren als men van de course DB een tweede examinator (namelijk DAT) wil vastleggen.
+ 
+
+Casus opdrachten
+
+Je hebt nu de opdracht 1A, 1F, 3B en 3C helemaal af.
+Vraag aan de docent feedback op 1A en 1F.

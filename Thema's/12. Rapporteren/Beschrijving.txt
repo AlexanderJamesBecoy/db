@@ -1,0 +1,53 @@
+Thema 12 Rapporteren
+
+DB Thema 12 - RAPPORTEREN mbv PowerBI.pptx
+
+Onderwerpen
+
+·       Rapporteren van informatie
+
+DIKW
+OLTP en OLAP
+·       Data verzamelen
+
+Van OLTP naar Datawarehouses
+Typische systeem architectuur
+ETL
+·       Visualiseren van informatie:
+
+Business Intelligence
+Data visualisation
+Key Performance Indicators
+Dashboards
+·       Realisatie van rapportages
+
+Introductie Power BI
+ 
+
+Zelfstudie
+
+ 
+
+Voer de Digitale Workshop 5 Werken met Power BI.pdf uit.
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Thema-opdracht 13.1
+
+Gegeven is de volgende KPI ‘Aantal actieve klanten per kwartaal’ :
+
+Geef een definitie van ‘actieve klant’.
+Bedenk hoe je in de huidige database kunt vaststellen wanneer iemand een ‘actieve klant’ is. Geef uit de huidige data van 3 (zelf te kiezen) gebruikers weer wanneer ze voor het eerst actief als klant waren.
+Bedenk met welk SQL statement je (in de basis) inzicht in deze KPI kunt geven.
+Ontwerp een grafiek die inzicht geeft in deze KPI.
+ 
+
+Casus opdrachten
+
+ 
+
+Maak opdracht 5 en 6 van de casus. 

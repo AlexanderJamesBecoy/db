@@ -1,0 +1,53 @@
+Thema 8 Statistische query’s
+
+DB Thema 8 - STATISTISCHE QUERYS HAN.pptx
+
+Onderwerpen
+
+·       SELECT statements: Statistische query’s (met gebruikmaking van GROUP BY en HAVING)
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstuk 8.
+
+·       Statistieken over één groep: bestudeer §8.1 en §8.2.
+
+·       Aanbevolen opgaven: 8.1, 8.2, 8.3.
+
+·       Statistieken over meerdere groepen: bestudeer §8.3.
+
+·       Aanbevolen opgaven: 8.4, 8.5, 8.6.
+
+·       Statistische join query’s: bestudeer §8.4.
+
+·       Aanbevolen opgaven: 8.7.
+
+·       Genest groeperen: bestudeer §8.5.
+
+·       Verwerkingsvolgorde SELECT-query: bestudeer §8.6.
+
+·       Aanbevolen opgaven: 8.11, 8.15 t/m 8.19
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Thema-opdracht 8.1
+
+Bij deze opdracht maken we gebruik van de Muziekdatabase.
+
+Van welke componisten zijn er 2 of meer stukken aanwezig? Geef de namen van deze componisten en het aantal aanwezige stukken. Orden op aantal (van groot naar klein).
+Geef stuknr, titel en componistnaam van alle jazzstukken met een bezetting van  precies vijf instrumenten.
+Wanneer staat een voorwaarde in de WHERE-component en wanneer in de HAVING-component?
+In SQL krijg je soms een foutmelding van de vorm:
+"Column … is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause." 
+Hoe wordt dit veroorzaakt?  En hoe los je dit op?
+ 
+
+Casus opdrachten
+
+ 
+
+Casuspdracht 1 heb je inmiddels helemaal afgerond. Werk verder aan de queries van de casusopdracht, maak daarvan 3F t/m H en 3L tm 3M.

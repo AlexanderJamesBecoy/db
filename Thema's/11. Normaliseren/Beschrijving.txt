@@ -1,0 +1,106 @@
+Thema 11 Normaliseren
+
+ 
+
+Onderwerpen
+
+·       Redundantie
+
+·       Herhalende groepen
+
+·       Gegevens versus informatie
+
+·       Normaliseren en normaalvormen
+
+·       Functionele afhankelijkheid
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstuk 1 + 5.
+
+·       Relationele databases en structuur  (§1.4 tm §1.6)
+
+·       Normalisatie  (§5.1 tm §5.4)
+
+PluralSight: Design a database structure with SQL Server 2014.
+Translating Business Requirements – Normalization and Denormalization
+
+https://app.pluralsight.com/player?course=design-database-structure-sql-server-2014-70-465&author=david-hansen&name=design-database-structure-sql-server-2014-70-465-m2&clip=4&mode=live
+
+Bekijk bovenstaande PluralSight module tot punt 5”10.
+
+ 
+
+Thema-opdrachten
+
+Bij deze opdracht breiden we de Muziekdatabase uit.
+
+Thema-opdracht 11.1
+
+In een speelfilm-database van een videotheek worden gegevens over films en de erin optredende acteurs bijgehouden.
+
+In de tabel FILM staan de benodigde gegevens. Een deel van de populatie:
+
+FILM
+
+Titel       Jaar       Regisseur         Acteur
+
+Grease      1978       Randal Kleiser    Olivia Newton-John
+
+Grease      1978       Randal Kleiser    John Travolta
+
+Metro       1997       Thomas Carter     Eddie Murphy
+
+Metro       1997       Thomas Carter     Kim Kiyori
+
+Metro       1997       Thomas Carter     Michael Rapaport
+
+De primary key van FILM is (Titel, Jaar, Acteur).
+Opmerking: Er zijn films met dezelfde titel die in een ander jaar worden gemaakt. Deze films kunnen dezelfde regisseur of acteurs hebben.
+
+Andere functionele afhankelijkheden zijn:
+
+Titel, Jaar ? Regisseur
+
+Waarom staat deze tabel niet in 2e normaalvorm?
+Zet de tabel om in twee tabellen in 2e normaalvorm. Geef de primary keys en eventuele foreign keys van die nieuwe tabellen
+ 
+
+Thema-opdracht 12.2
+
+Een theater registreert vóór elk seizoen welke voorstellingen er op welke dagen en tijdstippen gegeven gaan worden, samen met de vastgestelde toegangsprijzen. Deze gegevens staan in een tabel PROGRAMMA.
+
+Een voorbeeldpopulatie:
+
+PROGRAMMA
+
+Datum       Tijd        Voorstellingnr     Voorstellingtitel    Prijs Normaal    Prijs Abonnement
+
+5-03-2008   20:15       24                 Ballet Don Quichote  40               35
+
+6-03-2008   14:00       25                 Cowboy Billie Boem   15               12
+
+6-03-2008   20:15       26                 Lebbis & Jansen      25               20
+
+7-03-2008   20:30       27                 Aïda                 50               45
+
+8-03-2008   20:30       27                 Aïda                 50               45
+
+De primary key ligt op attributen Datum en Tijd. Een voorstelling wordt uniek geïdentificeerd door het voorstellingnummer.
+
+Andere functionele afhankelijkheden zijn:
+
+Voorstellingnr ? Voorstellingtitel
+
+Voorstellingnr ? PrijsNormaal
+
+Voorstellingnr ? PrijsAbonnement
+
+Waarom staat deze tabel in de 2e normaalvorm?
+Waarom staat deze tabel niet in de 3e normaalvorm?
+Zet de tabel  om in twee tabellen in 3e normaalvorm. Geef de primary keys en eventuele foreign keys van de nieuwe relaties.
+Casus opdrachten
+
+Maak opdracht 4 A tm C van de casus

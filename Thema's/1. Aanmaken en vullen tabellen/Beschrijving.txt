@@ -1,0 +1,51 @@
+Thema 1 Aanmaken en vullen tabellen
+
+DB Thema 1 - AANMAKEN EN VULLEN TABELLEN HAN.pptx
+
+Onderwerpen
+
+Structuur  van een relationele database:
+
+·       tabellen, kolommen en datatypen
+
+·       Beperkingsregels: primaire sleutels, alternatieve sleutels, not null, verwijzingen
+
+·       CREATE TABLE statements
+
+·       INSERT statements (alleen met VALUES)
+
+·       Introductie client/server
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 1, 2 en 3.
+
+·       Introductie client/server: Lees §1.1 en §1.2.
+
+·       Voorbeelddatabase Reijnders’ Toetjesboek: Bestudeer §1.3,  §1.5.6, §1.5.7; Lees §3.10.
+
+·       Beperkingsregels: Bestudeer §2.1 t/m §2.1.7, §2.1.10 t/m §2.1.12.
+
+·       Aanmaken van tabellen, rijen toevoegen aan tabellen: Lees §3.1 en §3.2; Bestudeer §3.9.2 en §3.9.3 en §3.8.1 en §3.8.3. Bestudeer §11.4.
+
+ 
+
+Thema-opdrachten
+
+Thema-opdracht 1.1
+
+Vooraf: Digitale Workshop 1 Installatie SQL Server 2016 Developer.pdf.
+
+Voer de Digitale Workshop 2 Werken met SQL Server 2016 Developer.pdf uit.
+
+Maak casusopdrachten 1A en 1F van de casus en beantwoord de volgende vragen:
+
+Is de volgorde waarin je CREATE TABLE-statements uitvoert van belang? Zo ja, waarom? Zo nee, waarom niet?
+Is de volgorde waarin je INSERT-statements uitvoert van belang? Zo ja, waarom? Zo nee, waarom niet?
+ 
+
+Casus opdrachten
+
+Maak casusopdrachten 1A en 1F.

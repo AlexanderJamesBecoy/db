@@ -1,0 +1,53 @@
+Thema 4 Cascade update en delete
+
+DB Thema 4 - CASCADE UPDATE en DELETE HAN.pptx
+
+Onderwerpen
+
+·       Cascading updates en deletes
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstuk 2, 10 en 11.
+
+·       Refererende actieregels: bestudeer §2.2.1.
+
+·       Integriteitsregels: bestudeer §10.3, §10.6.3 en §10.6.4
+
+·       FOREIGN KEYS constraints: bestudeer §11.6.2
+
+ 
+
+Thema-opdrachten
+
+ 
+
+Thema-opdracht 4.1
+
+De volgende vragen hebben betrekking op de muziekdatabase.
+
+Beschrijf van de onderstaande SQL statements welke records gewijzigd danwel verwijderd worden en motiveer je bevindingen.
+
+A. UPDATE Niveau SET niveaucode = 'E' WHERE niveaucode = 'A'
+
+B. DELETE FROM Niveau WHERE niveaucode = 'C'
+
+C. DELETE FROM Niveau WHERE niveaucode = 'B'
+
+D. UPDATE Stuk SET niveaucode = 'F' WHERE niveaucode = 'B'
+
+E. UPDATE Stuk SET stuknr = 99 WHERE stuknr = 1
+
+F. UPDATE Stuk SET stuknr = 99 WHERE stuknr = 2
+
+ 
+
+Casus opdrachten
+
+ 
+
+Maak opdracht 1 D van de casus.
+
+Geef enkele voorbeelden van UPDATE- en DELETE-instructies waarmee je het effect van update- en deleteregels bij verwijzingen illustreert.

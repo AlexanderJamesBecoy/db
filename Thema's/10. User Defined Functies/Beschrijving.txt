@@ -1,0 +1,43 @@
+Thema 10 User Defined Functies
+
+DB Thema 10 - USER DEFINED FUNCTIES HAN.pptx
+
+Onderwerpen
+
+Complexere constraints en User Defined Functies.
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, §6.4
+
+ 
+
+Thema-opdrachten
+
+Bij deze opdrachten maken we gebruik van de Muziekdatabase
+
+Thema-opdracht 10.1
+
+A. Gegeven is de volgende constraint:
+Het jaartal van een bewerkt stuk moet later liggen dan van zijn origineel.
+Maak hiervoor een functie die van een gegeven stuknr het jaartal teruggeeft.
+
+B. Geef een SELECT statement dat van alle stukken het stuknr, het jaartal hiervan en het jaartal van het origineel teruggeeft.
+
+C. Implementeer de constraint.
+
+Thema-opdracht 10.2
+
+A. Gegeven is de volgende constraint:
+Het jaartal van een stuk moet later liggen dan het geboortejaar van de componist van het stuk.
+
+B. Geef een SELECT statement dat van alle stukken het stuknr, het jaartal en het geboortejaar van de componist van dat stuk teruggeeft.
+
+C. Implementeer de constraint.
+
+Casus opdrachten
+
+Bekijk opdracht 1B en 1C opnieuw. Heroverweeg je bevindingen. Mogelijk kun je nu een aantal constraints wel op de database implementeren.
+

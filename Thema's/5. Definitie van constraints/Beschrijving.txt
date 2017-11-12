@@ -1,0 +1,33 @@
+Thema 5 Definitie van constraints
+
+DB Thema 5 - DEFINITIE VAN CONSTRAINTS HAN.pptx
+
+Onderwerpen
+
+·       CHECK constraints
+
+ 
+
+Zelfstudie
+
+Boek “Relationele Databases en SQL”, hoofdstukken 10 en 11.
+
+·       CHECK constraints: bestudeer §11.6
+
+ 
+
+Thema-opdrachten
+
+Thema-opdracht 5.1
+
+De volgende vragen hebben betrekking op de muziekdatabase.
+
+Stel dat niet de naam van een muziekschool uniek is, maar de combinatie van naam en plaats. Hoe dwing je dat af in het CREATE TABLE statement van de tabel Muziekschool?
+Geef aan hoe je de volgende beperkingsregel afdwingt in het CREATE TABLE statement van de tabel Stuk: een stuk is nooit een bewerking van zichzelf.
+Gegeven is de volgende beperkingsregel: een bewerking is altijd gemaakt van een origineel, en dus nooit van een andere bewerking. Beschrijf zo precies mogelijk wat betekent dit voor de tabel Stuk?
+Kun je de constraint van onderdeel 3 in een CREATE TABLE statement afdwingen? Zo ja, geef aan hoe. Zo nee, geef een SELECT-instructie die controleert of deze constraint wordt overtreden (zo’n query heet een negatieve select).
+ 
+
+Casus opdrachten
+
+Maak casusopdrachten 1 B, 1C, 1 D en 1E.
