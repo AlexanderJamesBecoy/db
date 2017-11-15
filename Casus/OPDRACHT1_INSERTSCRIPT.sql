@@ -14,7 +14,7 @@ INSERT INTO Person VALUES (83616, 'Wachowski', 'Andy', 'M');
 INSERT INTO Person VALUES (83617, 'Wachowski', 'Larry', 'M');
 INSERT INTO Person VALUES (393411, 'Reeves', 'Keanu', 'M');
 INSERT INTO Person VALUES (729933, 'Moss', 'Carrie-Anne', 'F');
-INSERT INTO Person VALUES (151786, 'Fishburne', 'Laurence', M);
+INSERT INTO Person VALUES (151786, 'Fishburne', 'Laurence', 'M');
 
 INSERT INTO Movie VALUES (11, 'Matrix, The', 122, 'Description of Matrix, The', 1999, NULL, NULL, 2.50, 'http...');
 INSERT INTO Movies VALUES (12, 'Matrix Reloaded, The', 106, 'Description of Matrix Reloaded, The', 2003, NULL, 11, 2.50, 'http...');

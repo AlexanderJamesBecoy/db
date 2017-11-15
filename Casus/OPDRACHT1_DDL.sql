@@ -1,14 +1,4 @@
-use master
-go
-
-drop database Fletnix
-go
-
-create database Fletnix
-go
-
-use database Fletnix
-go
+CREATE DATABASE Fletnix
 
 CREATE TABLE Person
 (
