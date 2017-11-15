@@ -1,7 +1,14 @@
-IF db_id('Fletnix') IS NULL
-	CREATE DATABASE Fletnix
+use master
+go
 
-GO
+drop database Fletnix
+go
+
+create database Fletnix
+go
+
+use database Fletnix
+go
 
 CREATE TABLE Person
 (
@@ -25,20 +32,14 @@ CREATE TABLE Movie
 	URL varchar(255),
 	CONSTRAINT pk_movie_id PRIMARY KEY (movie_id),
 	CONSTRAINT fk_movie_previouspart FOREIGN KEY (previous_part) REFERENCES Movie(movie_id)
-		ON UPDATE RESTRICT
-		ON DELETE RESTRICT
 )
 
 CREATE TABLE Movie_Directors
 (
 	movie_id int NOT NULL,
 	person_id int NOT NULL,
-	CONSTRAINT fk_md_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id)
-		ON UPDATE CASCADE
-		ON UPDATE CASCADE,
+	CONSTRAINT fk_md_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id),
 	CONSTRAINT fk_md_person_id FOREIGN KEY (person_id) REFERENCES Person(person_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE
 )
 
 CREATE TABLE Movie_Cast
@@ -46,12 +47,8 @@ CREATE TABLE Movie_Cast
 	movie_id int NOT NULL,
 	person_id int NOT NULL,
 	role varchar(255) NOT NULL,
-	CONSTRAINT fk_mc_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE,
-	CONSTRAINT fk_mc_person_id FOREIGN KEY (person_id) REFERENCES Person(person_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE,
+	CONSTRAINT fk_mc_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id),
+	CONSTRAINT fk_mc_person_id FOREIGN KEY (person_id) REFERENCES Person(person_id),
 	CONSTRAINT un_role UNIQUE (role)
 )
 
@@ -66,12 +63,8 @@ CREATE TABLE Movie_Genre
 (
 	movie_id int NOT NULL,
 	genre_name varchar(255) NOT NULL,
-	CONSTRAINT fk_mg_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE,
+	CONSTRAINT fk_mg_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id),
 	CONSTRAINT fk_mg_genre_name FOREIGN KEY (genre_name) REFERENCES Genre(genre_name)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE
 )
 
 CREATE TABLE Country
@@ -110,12 +103,8 @@ CREATE TABLE Customer
 	gender char(1),
 	birth_date date,
 	CONSTRAINT pk_customer_mail_address PRIMARY KEY (customer_mail_address),
-	CONSTRAINT fk_c_payment_method FOREIGN KEY (payment_method) REFERENCES Payment(payment_method)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE,
+	CONSTRAINT fk_c_payment_method FOREIGN KEY (payment_method) REFERENCES Payment(payment_method),
 	CONSTRAINT fk_c_contract_type FOREIGN KEY (contract_type) REFERENCES Contract(contract_type)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE
 )
 
 CREATE TABLE  Watchhistory
@@ -125,10 +114,6 @@ CREATE TABLE  Watchhistory
 	watch_date date NOT NULL,
 	price numeric(5,2) NOT NULL,
 	invoiced bit NOT NULL,
-	CONSTRAINT fk_wh_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id)
-		ON UPDATE CASCADE
-		ON DELETE RESTRICT,
+	CONSTRAINT fk_wh_movie_id FOREIGN KEY (movie_id) REFERENCES Movie(movie_id),
 	CONSTRAINT fk_wh_customer_mail_address FOREIGN KEY (customer_mail_address) REFERENCES Customer(customer_mail_address)
-		ON UPDATE CASCADE
-		ON DELETE RESTRICT
 )
