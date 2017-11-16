@@ -1,0 +1,8 @@
+1. Is de volgorde waarin je CREATE TABLE-statements uitvoert van belang? Zo ja, waarom? Zo nee, waarom niet?
+
+	Ja, want de structuur moet makkelijk te kunnen lezen.
+
+
+2. Is de volgorde waarin je INSERT-statements uitvoert van belang? Zo ja, waarom? Zo nee, waarom niet?
+
+	Ja, want elke waarde gaan op de volgorde van de veldnamen van de gegeven tabel.
